@@ -1,6 +1,7 @@
 <template>
   <el-checkbox-group v-model="checkList">
-    <el-checkbox label="Option A" />
+    <div><el-checkbox label="Option A" /><div/>
+    
     <el-checkbox label="Option B" />
     <el-checkbox label="Option C" />
     <el-checkbox label="disabled" disabled />
